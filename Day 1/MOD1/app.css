@@ -1,0 +1,56 @@
+/* Element Selector */
+/* h1{
+   color: blue; 
+} */
+
+/* Class Selector */
+
+/* .header1{
+ color:brown;
+}
+.header2{
+  color: blue;
+} */
+
+
+/* Id Selector */
+/* #header1{
+ color:brown;
+}
+#header2{
+  color: blue;
+} */
+
+/* Combining selector */
+/* h1 .para1{
+    color:blueviolet
+}
+h1 #para2{
+    color:gold
+} */
+
+
+/* p,h1,h4{
+    color:brown;
+    text-decoration: underline;
+} */
+
+
+/* Universal selector */
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* Attribute Selector */
+
+input[type="text"]{
+    color:red;
+}
+input[type="password"]{
+    color:blueviolet;
+}
+
+p{
+    color:chocolate !important
+}

@@ -1,0 +1,23 @@
+div{
+    height:200px;
+    width: 300px;
+    /* border:1px solid blue; */
+    /* background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%); */
+    /* background:linear-gradient(to right,red,yellow);
+    box-shadow: 10px 10px 10px gray; */
+    /* transform: rotate(45deg); */
+    border:1px solid red;
+    transform: translate(-30deg);
+}
+*{
+    margin: 0;
+}
+h3{
+    /* text-align: center; */
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 30px;
+    color:magenta;
+    /* transform: translate3d(10px,50px,10px); */
+  
+}

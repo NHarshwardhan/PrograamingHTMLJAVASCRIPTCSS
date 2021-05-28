@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            border: 1px solid purple;
+        }
+    </style>
+</head>
+<body>
+    <div id="ImageDropper" ondragover="allowDrop(event)" ondrop="drop(event)">
+
+    </div>
+    
+    <img id="myImage" src="https://www.teahub.io/photos/full/178-1783688_cool-design-stark-sigil-fenix-emi-cool-png.png" alt=""
+     width="200px"
+     height="200px"
+     draggable="true"
+     ondragstart="drag(event)"
+    
+    >
+
+    <!-- 
+      1) Make your Element draggable : [draggable = true]
+      2) When start dragging store the info of draggable element
+      3) Before dropping prevent default setting of HTML
+     -->
+
+     <script src="drag_drop.js"></script>
+</body>
+</html>

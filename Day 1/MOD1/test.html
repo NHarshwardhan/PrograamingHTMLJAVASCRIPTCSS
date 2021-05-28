@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .register form.submission-attempted input:invalid {
+            background-color: #f9b2b2;
+            outline: none;
+        }
+   
+    </style>
+</head>
+<body>
+    <form  id="registration-form" onsubmit="return validateForm()"  >
+
+    <div class="field">
+        <label for="first-name">First name:</label>
+        <input type="text" id="first-name" name="FirstName" required="required" autofocus="autofocus" />
+
+
+    </div>
+    <div class="field">
+        <label for="last-name">Last name:</label>
+        <input type="text" id="last-name" name="LastName" required="required" />
+
+    </div>
+    <div class="field">
+        <label for="email-address">Email address:</label>
+        <input type="email" id="email-address" name="EmailAddress" required="required" />
+
+    </div>
+    <div class="field">
+        <label for="password">Choose a password:</label>
+        <input type="text" id="password" name="Password" required="required" pattern="[a-zA-Z0-9]{5,}" title="At least 5 letters and numbers" />
+
+
+    </div>
+    <div class="field">
+        <label for="confirm-password">Confirm your password:</label>
+        <input type="text" id="confirm-password" name="ConfirmPassword" required="required" />
+
+
+    </div>
+    <div class="field">
+        <label for="website">Website/blog:</label>
+        <input type="url" id="website" name="WebsiteUrl" placeholder="http://" />
+
+    </div>
+    <div>
+        <button type="submit">Register</button>
+    </div>
+</form>
+<script src="test.js"></script>
+</body>
+</html>

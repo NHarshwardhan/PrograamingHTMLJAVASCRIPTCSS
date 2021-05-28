@@ -1,0 +1,26 @@
+#para1{
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: chocolate; */
+    /* border: 2px solid chocolate; */
+    margin: 20px;
+    padding: 20px;
+    /* overflow-y: scroll ; */
+    /* height: 400px; */
+    text-align: justify;
+    line-height: 29px;
+
+    
+    
+}
+body{
+   background-image: url('https://wallpaperaccess.com/full/530366.jpg');  
+  background-size: 100px 100px;
+  background-repeat: no-repeat; 
+  background-position: left top;
+  background-attachment: scroll;
+  
+/* background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%); */
+ background-color: darkcyan;
+
+}

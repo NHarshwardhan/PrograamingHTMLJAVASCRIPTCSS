@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #mapArea{
+            width: 500px;
+            height: 500px;
+            border:1px solid red
+        }
+    </style>
+</head>
+<body>
+     <p>Display Latitude and Longitude</p> 
+     <button onclick="getLocation()">Get Location</button>
+     
+     <p id="mapArea" >
+
+     </p>
+
+    <script src="geolocation.js"></script>
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATcwcW1qk8EyI_LNowks2oj6R3c85s1nY&libraries=&v=weekly"
+    async
+  ></script>
+</body>
+</html>
